@@ -7,7 +7,8 @@
 .title_page {
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  padding: 0 10px; /* Adjust the padding for better mobile display */
 }
 
 body {
@@ -16,12 +17,16 @@ body {
 
 .image-container {
   position: relative;
+  width: 10%; /* Ensure the image container fills the width */
 }
 
 .image {
   position: absolute;
-  top: 0px;
-  left: 200px;
-  width: 200px;
+  top: 0;
+  left: 270%;
+  transform: translateX(-50%); /* Center the image horizontally */
+  width: 100%; /* Make the image responsive */
+  max-width: 400px; /* Adjust the maximum width as needed */
   height: auto;
+  margin-bottom: 20px; /* Add some bottom margin for spacing */
 }

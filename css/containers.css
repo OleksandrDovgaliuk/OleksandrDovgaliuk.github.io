@@ -3,14 +3,13 @@
   border-radius: 4px;
   padding: 10px;
   margin-bottom: 20px;
-  width: 800px;
+  max-width: 100%;
   background-color: white;
 }
 
 .container .block details summary {
   font-weight: bold;
 }
-
 
 .container .block details summary::-webkit-details-marker {
   display: none;
