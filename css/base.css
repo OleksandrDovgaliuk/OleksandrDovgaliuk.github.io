@@ -23,10 +23,11 @@ body {
 .image {
   position: absolute;
   top: 0;
-  left: 270%;
-  transform: translateX(-50%); /* Center the image horizontally */
-  width: 100%; /* Make the image responsive */
-  max-width: 400px; /* Adjust the maximum width as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
   height: auto;
-  margin-bottom: 20px; /* Add some bottom margin for spacing */
+  object-fit: contain;
+  max-width: 100%;
+  margin-bottom: 20px;
 }
