@@ -4,12 +4,6 @@
   align-items: center;
 }
 
-.title_page {
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  padding: 0 10px; /* Adjust the padding for better mobile display */
-}
 
 body {
   background-color: #EDEDED;
@@ -20,14 +14,16 @@ body {
   width: 10%; /* Ensure the image container fills the width */
 }
 
+.title_page {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 0 10px; /* Adjust the padding for better mobile display */
+}
+
 .image {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-  max-width: 100%;
-  margin-bottom: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0px; /* Adjust the margin as needed */
+  max-height: 100px; /* Adjust the maximum height as needed */
 }
